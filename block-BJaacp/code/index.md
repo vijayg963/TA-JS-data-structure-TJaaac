@@ -25,6 +25,8 @@ Answer the following with reason after going through the above code:
 
 <!-- To add this image here use ![name](./hello.jpg) -->
 
+[hello](./hello.jpg)
+
 ```js
 function personDetails(person) {
   person.age = 25;
@@ -33,8 +35,8 @@ function personDetails(person) {
 }
 var person1 = { name: "Alex", age: 30 };
 var person2 = personDetails(person1);
-console.log(person1); //  {name: 'Alex', age: 25}
-console.log(person2); //  {name: 'John', age: 50}
+console.log(person1); // {name: 'Alex', age: 25}
+console.log(person2); // {name: 'John', age: 50}
 ```
 
 3. What will be the output of the below code:
